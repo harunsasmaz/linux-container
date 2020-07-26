@@ -33,12 +33,18 @@ To illustrate:
 * [seccomp](https://man7.org/linux/man-pages/man2/seccomp.2.html)
   * sudo apt-get install -y seccomp & sudo apt-get install libseccomp-dev
 
-## Environment && Compiling
+## Environment, Compiling and Running
 
-Environment:
+<h3>Environment:</h3>
 
 > Linux Ubuntu 18.04 LTS
 
-Compile:
+<h3>Compile:</h3>
 
 > gcc -Wall -Werror -lcap -lseccomp container.c -o container
+
+<h3>Run:</h3>
+
+This program can be used like this, to run /misc/img/bin/sh in /misc/img as root:
+
+> sudo ./contained -m ~/misc/busybox-img/ -u 0 -c /bin/sh
