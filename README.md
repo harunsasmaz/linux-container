@@ -1,6 +1,6 @@
 # Linux Container
 
-A simple linux container to illustrate how actual linux containers provides virtualization.
+A simple illustratio of linux containers (LXC) to understand how actual linux containers provides virtualization.
 
 ## What are Linux Containers ?
 
@@ -12,7 +12,7 @@ Unlike a virtual machine, rather than creating a whole virtual operating system,
 
 Undoubtedly, one of the biggest reasons for recent interest in container technology has been the Docker open source project, a command line tool that made creating and working with containers easy for developers and sysadmins alike.
 
-To illustrate
+To illustrate:
 
 ![container](contained.png)
 
