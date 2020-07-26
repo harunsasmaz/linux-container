@@ -1,6 +1,6 @@
 # Linux Container
 
-A simple illustratio of linux containers (LXC) to understand how actual linux containers provides virtualization.
+A simple illustration of linux containers (LXC) to understand how actual linux containers provides virtualization.
 
 ## What are Linux Containers ?
 
@@ -48,3 +48,9 @@ To illustrate:
 This program can be used like this, to run /misc/img/bin/sh in /misc/img as root:
 
 > sudo ./contained -m ~/misc/busybox-img/ -u 0 -c /bin/sh
+
+## References
+
+* [LXC Website](https://linuxcontainers.org/)
+* [Opensource Article](https://opensource.com/resources/what-are-linux-containers)
+* [Redhat Article](https://www.redhat.com/en/topics/containers/whats-a-linux-container)
